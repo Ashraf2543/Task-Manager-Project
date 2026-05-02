@@ -1,52 +1,83 @@
-# TASKFORGE — Team Task Manager (Frontend)
+# TASKFORGE — Team Task Manager
 
-TASKFORGE is a responsive frontend implementation of a Team Task Manager application that allows users to manage projects, assign tasks, and track progress with role-based access.
+🌐 **Live Demo:** https://task-manager-project-production.up.railway.app/
+
+TASKFORGE is a **deployed frontend Team Task Manager application** that enables users to manage projects, assign tasks, and track progress through a clean, responsive interface with role-based access.
+
+---
 
 ## 🚀 Features
 
-- Authentication UI (Login / Signup)
-- Role-based interface (Admin / Member)
-- Project & team management UI
-- Task creation, assignment & status tracking (UI-based)
-- Interactive dashboard:
-  - Task statistics
-  - Overdue tracking
-  - Activity feed
-- Kanban-style task visualization
-- Search and filtering system
+* 🔐 Authentication UI (Login / Signup)
+* 👥 Role-based interface (Admin / Member)
+* 🗂️ Project management system
+* ✅ Task creation, assignment & status tracking
+* 📊 Interactive dashboard:
+
+  * Task statistics
+  * Overdue tracking
+  * Activity feed
+* 🔎 Search and filtering functionality
+* 📋 Kanban-style task visualization
+* ⚡ Real-time UI updates with local state
+
+---
+
+## 🧪 Demo Access
+
+**Admin Account**
+
+* Email: [admin@taskforge.io](mailto:admin@taskforge.io)
+* Password: admin123
+
+**Member Account**
+
+* Email: [member@taskforge.io](mailto:member@taskforge.io)
+* Password: member123
+
+---
 
 ## ⚙️ Tech Stack
 
-- HTML5
-- CSS3 (Custom design system)
-- Vanilla JavaScript
-- LocalStorage (for state persistence)
+* HTML5
+* CSS3 (Custom design system)
+* Vanilla JavaScript
+* LocalStorage (client-side persistence)
 
-## 🧠 Architecture Note
+---
 
-This project simulates a full-stack workflow entirely on the frontend.
+## 🧠 Architecture Overview
 
-- Data is managed using browser localStorage
-- Authentication is simulated
-- Role-based access is implemented at UI level
+This application is a **frontend-driven simulation of a full-stack system**:
 
-## 📌 Limitations
+* Data is stored and managed using browser `localStorage`
+* Authentication and session handling are simulated
+* Role-based access control is implemented at the UI level
+* No external backend or APIs are currently integrated
 
-- No backend APIs
-- No real database (uses localStorage)
-- No server-side authentication
-- Not yet deployed
+---
 
-## 🛣️ Planned Improvements
+## 📌 Current Limitations
 
-- Integrate REST APIs (Node.js / Express)
-- Add database (MongoDB / PostgreSQL)
-- Implement JWT-based authentication
-- Enforce backend role-based access control
-- Deploy on Railway
+* No backend server or REST APIs
+* No database (uses localStorage)
+* No server-side authentication
+* Data is browser-dependent (resets on clear storage)
+
+---
+
+## 🛣️ Future Improvements
+
+* 🔧 Build backend using Node.js / Express
+* 🗄️ Integrate database (MongoDB / PostgreSQL)
+* 🔐 Implement JWT-based authentication
+* 🛡️ Enforce backend role-based access control
+* ☁️ Full-stack deployment on Railway
+
+---
 
 ## 💡 Project Goal
 
-This project demonstrates frontend architecture, UI/UX design, and application flow for a scalable task management system.
+This project demonstrates strong frontend engineering, UI/UX design, and application architecture for a scalable task management system.
 
-It is designed as a foundation for a full-stack implementation.
+It is designed as a **foundation for a complete full-stack implementation**.
