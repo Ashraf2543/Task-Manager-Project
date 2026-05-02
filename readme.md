@@ -46,6 +46,14 @@ TASKFORGE is a **deployed frontend Team Task Manager application** that enables 
 
 ---
 
+## 📸 Application Preview
+
+### Dashboard View
+
+![TASKFORGE Dashboard](assets/dashboard.png)
+
+---
+
 ## 🧠 Architecture Overview
 
 This application is a **frontend-driven simulation of a full-stack system**:
